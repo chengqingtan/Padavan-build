@@ -94,7 +94,7 @@ jobs:
         #echo "自定义项=y" >> .config
         
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT/d' .config #删除配置项SCUTCLIENT
-        echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=n" >> .config #SCUTCLIENT
+        echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=y" >> .config #SCUTCLIENT
         #########################################################################################
         sudo ./clear_tree
         sudo ./build_firmware_modify $TNAME 0
