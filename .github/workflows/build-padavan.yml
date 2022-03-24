@@ -95,8 +95,10 @@ jobs:
         
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT/d' .config #删除配置项SCUTCLIENT
         sed -i '/CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER/d' .config #删除配置项DNSFORWARDER
+        sed -i '/CONFIG_FIRMWARE_INCLUDE_NAPT66/d' .config       #删除配置项NAPT66
         echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=y" >> .config #SCUTCLIENT
-        echo "CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER=n" >> .config #DNSFORWARDER
+        echo "CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER=y" >> .config #DNSFORWARDER
+        echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=y" >> .config #NAPT66
         #########################################################################################
         sudo ./clear_tree
         sudo ./build_firmware_modify $TNAME 0
