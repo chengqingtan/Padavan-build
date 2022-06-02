@@ -60,10 +60,10 @@ jobs:
         #以下选项是定义你需要的功能（y=集成,n=忽略），重新写入到.config文件
         ######################################################################
         ##科学上网##
-        echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=y" >> .config #科学上网插件，选择n后全部有关插件都不集成
-        echo "CONFIG_FIRMWARE_INCLUDE_XRAY=y" >> .config #集成xray执行文件 ~4.5M
+        echo "CONFIG_FIRMWARE_INCLUDE_SHADOWSOCKS=n" >> .config #科学上网插件，选择n后全部有关插件都不集成
+        echo "CONFIG_FIRMWARE_INCLUDE_XRAY=n" >> .config #集成xray执行文件 ~4.5M
         echo "CONFIG_FIRMWARE_INCLUDE_V2RAY=n" >> .config #集成v2ray执行文件
-        echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=y" >> .config #集成trojan执行文件 ~1.2M
+        echo "CONFIG_FIRMWARE_INCLUDE_TROJAN=n" >> .config #集成trojan执行文件 ~1.2M
         echo "CONFIG_FIRMWARE_INCLUDE_SSOBFS=n" >> .config #simple-obfs混淆插件
         ##科学上网##
 
@@ -97,9 +97,11 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT/d' .config #删除配置项SCUTCLIENT
         sed -i '/CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER/d' .config #删除配置项DNSFORWARDER
         sed -i '/CONFIG_FIRMWARE_INCLUDE_NAPT66/d' .config       #删除配置项NAPT66
+        sed -i '/CONFIG_FIRMWARE_INCLUDE_SRELAY/d' .config       #删除配置项SRELAY
         echo "CONFIG_FIRMWARE_INCLUDE_SCUTCLIENT=y" >> .config #SCUTCLIENT
         echo "CONFIG_FIRMWARE_INCLUDE_DNSFORWARDER=n" >> .config #DNSFORWARDER
-        echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=y" >> .config #NAPT66
+        echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=n" >> .config #NAPT66 无效
+        echo "CONFIG_FIRMWARE_INCLUDE_SRELAY=y" >> .config #SRELAY
         #########################################################################################
         sudo ./clear_tree
         sudo ./build_firmware_modify $TNAME 0
