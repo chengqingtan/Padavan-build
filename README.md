@@ -15,4 +15,4 @@
 
 编译完成后在Actions页面底部下载固件。
 
-Maybe
+*在action内对应workflow内点击run workflow也可以运行
