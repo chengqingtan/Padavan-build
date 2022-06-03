@@ -2,8 +2,8 @@
 name: Build Padavan 3.4
 
 on: 
-  #release:
-  #  types: [published]
+  release:
+    types: [published]
   #push:
   #  tags:
   #  - 'v*'
@@ -11,8 +11,8 @@ on:
   #    - master
 #  schedule:
 #    - cron: 0 8 * * 5
-  #watch:
-  #  types: [started]
+  watch:
+    types: [started]
   workflow_dispatch:
 
 jobs:
