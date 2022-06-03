@@ -2,8 +2,8 @@
 name: Build Padavan 3.4
 
 on: 
-  release:
-    types: [published]
+  #release:
+  #  types: [published]
   #push:
   #  tags:
   #  - 'v*'
