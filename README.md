@@ -2,7 +2,7 @@
 * 设备为红米AC2100，并对华工校园网客户端scutclient有需求的用户
 # 工作流：
 * build-padavan 编译4.4内核的Padavan固件
-* 如何开始编译：（以下方式选择其一即可）
+* 如何开始编译：以下方式选择其一即可
     （1）点击star
     （2）发布新的release
     （3）在workflow里点击Build Padavan 4.4并Run workflow
