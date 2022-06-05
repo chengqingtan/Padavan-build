@@ -2,8 +2,12 @@
     设备为红米AC2100，并对华工校园网客户端scutclient有需求的用户
 # 工作流：
     build-padavan 编译4.4内核的Padavan固件
-    原因：本人在使用3.4内核的Padavan固件进管理后台经常卡顿
-    问题：无法通过编译napt66的方式来使用IPv6
+    如何开始编译：（以下方式选择其一即可）
+        点击star
+        发布新的release
+        在workflow里点击Build Padavan 4.4并Run workflow
+    编译4.4内核版本的原因：本人在使用3.4内核的Padavan固件进管理后台经常卡顿
+    4.4内核版本的不足：无法通过编译napt66的方式来使用IPv6（但有其他替代方案）
 # 已编译固件：
     已编译的固件发布在release，最新版本为v3.0，编译时间为2022年6月6日
     同时顺便将近期编译的Lede Openwrt固件一起发布
