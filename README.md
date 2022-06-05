@@ -6,6 +6,7 @@
         （1）点击star
         （2）发布新的release
         （3）在workflow里点击Build Padavan 4.4并Run workflow
+        记得先fork到自己的存储库里去哦！
     编译4.4内核版本的原因：本人在使用3.4内核的Padavan固件进管理后台经常卡顿
     4.4内核版本的不足：无法通过编译napt66的方式来使用IPv6（但有其他替代方案）
 # 已编译固件：
