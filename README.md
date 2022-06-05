@@ -1,18 +1,12 @@
-# Padavan-build说明
-
-步骤
-
-0.点击右上角的Fork按钮，进入自己fork后的仓库。
-
-1.修改/workflows/build-padavan.yml里的插件与机型。修改TNAME: K2P 中的K2P为需要编译的型号，注意名称要与configs/templates/目录下的名字
-相同。
-
-  修改后commit changes保存。
-
-2.点击页面上部的Actions按钮，点击I understand my workflows，go ahead and enable them绿色按钮启用action。
-
-3.点击右上角的 Star 星星按钮即可开始自动编译（自己点击才会编译）。修改配置后若需再次编译，先点击Star取消Star后，再点击Star即可重新编译。
-
-编译完成后在Actions页面底部下载固件。
-
-*在action内对应workflow内点击run workflow也可以运行工作流
+# 适用范围：
+    设备为红米AC2100，并对华工校园网客户端scutclient有需求的用户
+# 工作流：
+    build-padavan 编译4.4内核的Padavan固件
+    原因：本人在使用3.4内核的Padavan固件进管理后台经常卡顿
+    问题：无法通过编译napt66的方式来使用IPv6
+# 已编译固件：
+    已编译的固件发布在release，最新版本为v3.0，编译时间为2022年6月6日
+    同时顺便将近期编译的Lede Openwrt固件一起发布
+# 自己编译固件的原因：
+    在使用scutclient的同时对ssr之类的有需求，在网上找不到兼顾两种需求的固件，于是自己动手编译
+* 其他注意事项在release v3.0中
