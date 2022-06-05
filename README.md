@@ -3,7 +3,7 @@
 # 工作流：
     build-padavan 编译4.4内核的Padavan固件
     如何开始编译：（以下方式选择其一即可）
-        点击star
+    * 点击star
         发布新的release
         在workflow里点击Build Padavan 4.4并Run workflow
     编译4.4内核版本的原因：本人在使用3.4内核的Padavan固件进管理后台经常卡顿
