@@ -13,7 +13,7 @@
 * 同时顺便将近期编译的Lede Openwrt固件一起发布
 # 自己编译固件的原因：
 * 在使用scutclient的同时对ssr之类的有需求，在网上找不到兼顾两种需求的固件，于是自己动手编译
-># 已发布版本--见release
+# 已发布版本--见release
 >## v3.0
 >  * Padavan 和 Lean OpenWrt 固件
 >  * 如果只想上校园网，那就推荐使用Padavan，有图形界面、配置简单，但Padavan里的SSR-Plus无法使用
