@@ -30,4 +30,4 @@
 >  * 编译了luci-app-scutclient，这一版本有了图形界面，配置也很简单
 >  * 已经基本满足了我的需求，短期内应该不会再更新
 
-# 综上，目前推荐的是 [v3.0 Padavan纯净版](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v3.0/padavan_scut.zip) 和 [v4.0 Lienol ssr-plus版本](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v4.0/lienol_scutUI_ssr.zip)
+# 目前推荐的是 [v3.0 Padavan纯净版](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v3.0/padavan_scut.zip) 和 [v4.0 Lienol ssr-plus版本](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v4.0/lienol_scutUI_ssr.zip)
