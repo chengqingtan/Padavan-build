@@ -11,11 +11,7 @@
     (2)发布新的release
     (3)在workflow里点击Build Padavan 4.4并Run workflow
 * 编译4.4内核版本的原因：本人在使用3.4内核的Padavan固件进管理后台经常卡顿
-* 4.4内核版本的不足：无法通过编译napt66的方式来使用IPv6（但有其他替代方案）
-
-# 已编译固件：
-* 已编译的固件发布在release，最新版本为v3.0，编译时间为2022年6月5日
-* 同时顺便将近期编译的Lede Openwrt固件一起发布
+* 4.4内核版本的不足：无法通过编译napt66的方式来使用IPv6（但有其他替代方案，见 [release v3.0](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v3.0)）
 
 # 自己编译固件的原因：
 * 在使用scutclient的同时对ssr之类的有需求，在网上找不到兼顾两种需求的固件，于是自己动手编译
