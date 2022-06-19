@@ -1,20 +1,7 @@
-# 最近更新时间：2022-6-18
-
-# 适用范围：
-* 设备为红米AC2100，并对华工校园网客户端scutclient有需求的用户
-
-# 工作流：
-* build-padavan 编译4.4内核的Padavan固件
-
-# 如何开始编译：（以下三种方式任选其一，记得先fork到自己的存储库中）
-    (1)点击star
-    (2)发布新的release
-    (3)在workflow里点击Build Padavan 4.4并Run workflow
-* 编译4.4内核版本的原因：本人在使用3.4内核的Padavan固件进管理后台经常卡顿
-* 4.4内核版本的不足：无法通过编译napt66的方式来使用IPv6（但有其他替代方案，见 [release v3.0](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v3.0)）
-
-# 自己编译固件的原因：
-* 在使用scutclient的同时对ssr之类的有需求，在网上找不到兼顾两种需求的固件，于是自己动手编译
+# 定时发布适用于RM2100且带有华工校园网客户端的OpenWrt固件
+  ## 自己编译固件的原因：
+   * 在使用scutclient的同时对ssr之类的工具有需求，在网上找不到兼顾两种需求的固件，于是自己动手编译
+  ## 最近更新时间：2022-6-18
 
 # 已发布版本--见[release](https://github.com/chengqingtan/Padavan-build-RM2100/releases)：
 > ## [v3.0](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v3.0)
@@ -31,3 +18,13 @@
 >  * 已经基本满足了我的需求，短期内应该不会再更新
 
 # 目前推荐的是 [v3.0 Padavan纯净版](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v3.0/padavan_scut.zip) 和 [v4.0 Lienol ssr-plus版本](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v4.0/lienol_scutUI_ssr.zip)
+
+# Padavan 自动编译工作流：
+    build-padavan 编译4.4内核的Padavan固件
+
+  ## 如何开始编译：（以下三种方式任选其一，记得先fork到自己的存储库中）
+    (1)点击star
+    (2)发布新的release
+    (3)在workflow里点击Build Padavan 4.4并Run workflow
+* 编译4.4内核版本的原因：本人在使用3.4内核的Padavan固件进管理后台经常卡顿
+* 4.4内核版本的不足：无法通过编译napt66的方式来使用IPv6（但有其他替代方案，见 [release v3.0](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v3.0)）
