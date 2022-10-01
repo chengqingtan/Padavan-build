@@ -15,7 +15,6 @@
 > ## [v4.0](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v4.0)
 >  * Lienol OpenWrt 固件
 >  * 编译了luci-app-scutclient，这一版本有了图形界面，配置也很简单
->  * 已经基本满足了我的需求，短期内应该不会再更新
 > ## [v4.1](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v4.1)
 >  * 将 Lienol OpenWrt 固件版本更新到 22.03-snapshot
 
