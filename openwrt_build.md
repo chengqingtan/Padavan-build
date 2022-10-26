@@ -5,7 +5,7 @@
 - [lienol openwrt](https://github.com/Lienol/openwrt)
 - [openwrt常用软件包](https://github.com/kenzok8/openwrt-packages)
 - [scutclient](https://github.com/scutclient/scutclient)
-- [luci-app-scutclient](https://github.com/chengqingtan/luci-app-scutclient)
+- [luci-app-scutclient](https://github.com/scutclient/luci-app-scutclient)
 
 <u>其中 **scutclient** 和 **luci-app-scutclient** 已被我整合在 [openwrt-scutclient](https://github.com/chengqingtan/openwrt-scutclient)</u>
 
@@ -26,16 +26,16 @@
    sudo apt-get -y install build-essential asciidoc binutils bzip2 curl gawk gettext git libncurses5-dev libz-dev patch python3.5 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf
    ```
 
-3. 克隆源码，`-b 22.03` 指使用 22.03 分支
+3. 克隆源码，`-b 21.02` 指使用 21.02 分支
 
    ```shell
-   git clone -b 22.03 --single-branch https://github.com/Lienol/openwrt lienol22
+   git clone -b 21.02 --single-branch https://github.com/Lienol/openwrt lienol
    ```
 
-4. 执行 `cd lienol22` 进入目录后，修改 **feeds.conf.default** 在最后添加以下几行
+4. 执行 `cd lienol` 进入目录后，修改 **feeds.conf.default** 在最后添加以下几行
 
    ```
-   src-git scut https://github.com/chengqingtan/openwrt-scutclient;main
+   src-git scut https://github.com/chengqingtan/openwrt-scutclient;scut
    src-git kenzo https://github.com/kenzok8/openwrt-packages
    src-git small https://github.com/kenzok8/small
    ```
