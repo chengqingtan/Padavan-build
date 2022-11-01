@@ -19,7 +19,9 @@
 >  * 编译了luci-app-scutclient，这一版本有了图形界面，配置也很简单
 > ## [v4.1](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v4.1)
 >  * 将 Lienol OpenWrt 固件版本更新到 22.03-snapshot
-> ## 目前推荐的是 [v3.0 Padavan纯净版](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v3.0/padavan_scut.zip) 和 [v4.1 Lienol ssr-plus版本](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v4.1/lienol22.03-scutUI-ssr.zip)
+> ## [v4.2](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v4.2)
+>  * 编译 immortalwrt-21.02，支持暗色主题，编译 luci-app-upnp 和 luci-app-autoreboot
+> ## 目前推荐的是 [v3.0 Padavan纯净版](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v3.0/padavan_scut.zip) 和 [v4.2 immortalwrt Passwall版本](https://github.com/chengqingtan/Padavan-build-RM2100/releases/download/v4.2/immortalwrt-scut-passwall-smartdns.zip)
 
 # Padavan 自动编译工作流：
     build-padavan 编译4.4内核的Padavan固件
