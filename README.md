@@ -6,11 +6,11 @@
 # [openwrt编译教程](./openwrt_build.md)
 ----------------------------------
 # 已发布版本--见[release](https://github.com/chengqingtan/Padavan-build-RM2100/releases)：
-> ## [v3.0](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v3.0)
+> ## [~~v3.0~~](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v3.0)
 >  * Padavan 和 Lean OpenWrt 固件
 >  * 如果只想上校园网，那就推荐使用Padavan，有图形界面、配置简单，但Padavan里的SSR-Plus无法使用
 >  * Lean OpenWrt固件存在重启后配置丢失的bug
-> ## [v3.1](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v3.1)
+> ## [~~v3.1~~](https://github.com/chengqingtan/Padavan-build-RM2100/releases/tag/v3.1)
 >  * Lienol OpenWrt 固件
 >  * 编译了scutclient，但没有图形界面
 >  * 没有Lean OpenWrt重启后配置丢失的bug
